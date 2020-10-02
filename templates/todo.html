@@ -23,16 +23,11 @@
 	<blockquote>
 		<p>{{todo_item.content}}</p></blockquote>
 <div class="form-group">
-	<form class="visible-inline" action="{% url 'delete-todo' todo_item.id %}" style="display: inline-block;" method="get">{% csrf_token%}
+	<form class="visible-inline" action="{url 'delete-todo' todo_id=todo_item.id}" style="display: inline-block;" method="get">{% csrf_token%}
 
 	<input type="submit" value="Delete" class="btn btn-danger">
-	<a href="{% url 'update-todo' todo_item.id %}"  class="btn btn-danger" target="_blank" rel="noopener noreferrer">Update</a>
-	
 
 </div>
-
-
-
 </form>
 	{% endfor %}
 </ul>
