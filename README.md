@@ -1,20 +1,29 @@
 # SIMPLE TODO APP BUILT USING DJANGO
+### About
+This is a simple todo app made by Aju Tamang. The apps frontend is built using HTML and CSS and the backend is written in Django, Python and SQLITE(database).
+### Below you will find 
+<ul>
+<li>Screenshotes</li>
+<li>Instructions to contribute to the project</li>
+<li>Instructions to run the project on your PC</li>
+<li>The tools used</li>
+</ul>
+    
 
 ## Screenshots
 
 ### Main Page
 ![alt text](/screenshots/todo.png.png)
 
-# Author
-- Aju Tamang
 
 ### To contribute in the project:
-1. Fork the repo
-2. Clone the repo eg:- git clone url
-3. Create new branch  eg:- git branch branchname
-4. Move to new branch eg;- git checkout branchname
-5. Change or update in code ,what you want 
-6. Push the code eg;- git push origin branchname 
+1. Install git https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+2. Fork the repo
+3. Clone the repo eg:- git clone url
+4. Create new branch  eg:- git branch branchname
+5. Move to new branch eg;- git checkout branchname
+6. Change or update in code ,what you want 
+7. Push the code eg;- git push origin branchname 
 
 ### To run this project on your PC:
 1. Make sure that you have python installed. If not, install from https://python.org
@@ -33,3 +42,7 @@
 ## BACKEND
 - Django & Python
 - SQLITE (Database)
+
+
+# Author
+- Aju Tamang
